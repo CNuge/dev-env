@@ -2,7 +2,7 @@
 ## Cam's forked version of Bari's default dev environment for use with aws
 
 
-## setting up on aws
+## setting up environment on aws from scratch
 
 once onto aws, want to be able to get the environment moving quickly in an automated fashion.
 
@@ -20,7 +20,22 @@ once onto aws, want to be able to get the environment moving quickly in an autom
     :w  #save modified file
     :qa #just quit
 
-4. push to github
-
-use personal access token instead of actual password when prompted.
+4. push/pull to/from github
+- use personal access token instead of actual password when prompted.
  https://github.com/settings/tokens
+
+
+5. set up mamba
+
+```
+    wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
+    bash Mambaforge-Linux-x86_64.sh
+```
+
+accept the liscence, don't scroll too fast as you need to type "yes" on final line
+
+```
+source ~/.bashrc
+```
+
+
