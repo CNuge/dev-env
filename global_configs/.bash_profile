@@ -17,8 +17,12 @@ PATH=$PATH:$HOME/.local/bin:$HOME/bin
 export PATH
 export TZ="America/New_York"
 
+#############################
+#bash shortcuts
 alias ll='ls -lh'
 alias lt='ls -lth'
+alias la="ls -a"
+
 alias q='qstat'
 alias s='squeue'
 alias push='git push -u origin `git branch | awk "/\*/ {print \\\$2}"`'
