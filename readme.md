@@ -1,5 +1,4 @@
-# Dev environment dotfiles and setup
-## Cam's version
+# dev-env : Dev environment dotfiles, install, and setup
 
 
 ## setting up CLI dev environment from scratch
@@ -37,6 +36,4 @@ conda activate snakemake
 
 7. Clone and/or naviagte to the repository you are working with.
 
-Can create a repo-specific conda env, or proceed with the global one.
-
-8. Begin work!
+Can create a repo-specific conda env, or proceed with the global one. You can now begin work in the environment.
