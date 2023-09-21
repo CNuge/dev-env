@@ -7,4 +7,7 @@ cp -R global_configs/.bash_profile \
       global_configs/.vimrc \
       $HOME
 
+#install mamba
 bash $PWD/utils/get_mambaforge.sh
+#install nano
+bash $PWD/utils/install_nano.sh

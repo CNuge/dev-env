@@ -1,41 +1,42 @@
-# dotfiles and setup
-## Cam's forked version of Bari's default dev environment for use with aws
+# Dev environment dotfiles and setup
+## Cam's version
 
 
-## setting up environment on aws from scratch
+## setting up CLI dev environment from scratch
 
-once onto aws, want to be able to get the environment moving quickly in an automated fashion.
+This repo is primarily for getting a new ec2 instance up and running efficently. Once onto aws, want to be able to get the environment moving quickly in an automated fashion. Will work for any command line environment, providing a minimal dev environemt to work in.
 
 1. login to aws via command line, navigate to environment
 
 2. clone repository using HTTPS link:
-`git clone https://github.com/CNuge/dot_files_and_setup.git`
+`git clone https://github.com/CNuge/env-setup.git`
 
-3. Do work
+3. Set up environment.
+Have a look in `setup.sh`, make sure all the config files being copied and the utils being called to facilitate installs match your desired. You can add more install scripts to utils, or more generic config files to be copied to home dir and enabled.
 
-- NB adding text, don't have nano by default on aws, going to have to get used to vim
-    vi #open
-    i #insert text
-    esc #finish insert
-    :w  #save modified file
-    :qa #just quit
-
-4. push/pull to/from github
-- use personal access token instead of actual password when prompted.
- https://github.com/settings/tokens
-
-
-5. set up mamba
-
-```
-    wget https://github.com/conda-forge/miniforge/releases/latest/download/Mambaforge-Linux-x86_64.sh
-    bash Mambaforge-Linux-x86_64.sh
-```
-
-accept the liscence, don't scroll too fast as you need to type "yes" on final line
-
+Source your bash profile
 ```
 source ~/.bashrc
 ```
 
+4. Check `git-access` push/pull to/from github
+- use personal access token instead of actual password when prompted.
+ https://github.com/settings/tokens
 
+5. Create snakemake conda environment 
+
+```
+conda create -c bioconda -c conda-forge -n snakemake snakemake
+```
+
+6. Activate the conda environment 
+
+```
+conda activate snakemake
+```
+
+7. Clone and/or naviagte to the repository you are working with.
+
+Can create a repo-specific conda env, or proceed with the global one.
+
+8. Begin work!
