@@ -28,6 +28,8 @@ source ~/.bashrc
 cd ~
 bash mamaforge.sh
 # where mamaforge.sh is the most up to date mamabaforge downloaded by the setup command
+# re-source following install
+source ~/.bashrc
 ```
 
 4. Check `git-access` push/pull to/from github
