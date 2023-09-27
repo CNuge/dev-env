@@ -14,3 +14,4 @@ bash $PWD/utils/get_mambaforge.sh
 #install nano
 bash $PWD/utils/install_nano.sh
 
+~
