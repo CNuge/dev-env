@@ -13,5 +13,7 @@ bash $PWD/utils/get_miniconda.sh
 bash $PWD/utils/get_mambaforge.sh
 #install nano
 bash $PWD/utils/install_nano.sh
+#install tree
+bash $PWD/utils/install_tree.sh
 
 ~

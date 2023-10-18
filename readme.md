@@ -19,7 +19,9 @@ setup.sh
 ```
 Source your bash profile
 ```
-source ~/.bashrc
+#source ~/.bashrc
+source ~/.bash_profile
+
 ```
 
 4. install mamabaforge
