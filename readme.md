@@ -53,3 +53,6 @@ conda activate dev
 7. Clone and/or naviagte to the repository you are working with.
 
 Can create a repo-specific conda env, or proceed with the global one. You can now begin work in the environment.
+
+8. r work 
+- conda env create -n r-dev --file r-dev.yaml
