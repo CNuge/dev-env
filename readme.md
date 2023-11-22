@@ -41,13 +41,13 @@ source ~/.bashrc
 5. Create snakemake conda environment 
 
 ```
-conda create -c bioconda -c conda-forge -n snakemake snakemake
+conda create -c bioconda -c conda-forge -n snakemake dev
 ```
 
 6. Activate the conda environment 
 
 ```
-conda activate snakemake
+conda activate dev
 ```
 
 7. Clone and/or naviagte to the repository you are working with.

@@ -22,6 +22,7 @@ export TZ="America/New_York"
 alias ll='ls -lh'
 alias lt='ls -lth'
 alias la="ls -a"
+alias la="ls -ltr"
 
 alias q='qstat'
 alias sq='squeue'
