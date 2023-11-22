@@ -38,10 +38,10 @@ source ~/.bashrc
 - use personal access token instead of actual password when prompted.
  https://github.com/settings/tokens
 
-5. Create snakemake conda environment 
+5. Create a conda environment named 'dev' to do development work in, the command below sets the environment up with snakemake
 
 ```
-conda create -c bioconda -c conda-forge -n snakemake dev
+conda create -c bioconda -c conda-forge -n dev snakemake
 ```
 
 6. Activate the conda environment 
@@ -54,5 +54,10 @@ conda activate dev
 
 Can create a repo-specific conda env, or proceed with the global one. You can now begin work in the environment.
 
-8. r work 
-- conda env create -n r-dev --file r-dev.yaml
+
+8. Working with R.
+
+A conda environment with a large set of packages that may be required can be created from the yaml file included in this repository like so: 
+```
+conda env create -n r-dev --file r-dev.yaml
+```
