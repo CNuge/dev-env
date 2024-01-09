@@ -24,12 +24,12 @@ source ~/.bash_profile
 
 ```
 
-4. install mamabaforge
+4. install mambaforge
 
 ```
 cd ~
-bash mamaforge.sh
-# where mamaforge.sh is the most up to date mamabaforge downloaded by the setup command
+bash mambaforge.sh
+# where mambaforge.sh is the most up to date mamabaforge downloaded by the setup command
 # re-source following install
 source ~/.bashrc
 ```
