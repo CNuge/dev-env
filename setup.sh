@@ -1,5 +1,6 @@
 #!/bin/bash
-cp -R global_configs/.bash_profile \
+cp -R global_configs/.aws/ \
+      global_configs/.bash_profile \
       global_configs/.condarc \
       global_configs/.gitconfig \
       global_configs/.gitignore \
