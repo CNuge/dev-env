@@ -6,6 +6,7 @@ cp -R global_configs/.aws/ \
       global_configs/.gitignore \
       global_configs/.vim/ \
       global_configs/.vimrc \
+      project_configs/pre-commit-config.yaml\
       $HOME
 
 #install miniconda

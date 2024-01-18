@@ -34,6 +34,14 @@ bash mambaforge.sh
 source ~/.bashrc
 ```
 
+4. 
+install commitizen and precommit
+```
+conda install commitizen
+conda install -c conda-forge pre-commit
+
+```
+
 4. Check `git-access` push/pull to/from github
 - use personal access token instead of actual password when prompted.
  https://github.com/settings/tokens
@@ -61,3 +69,22 @@ A conda environment with a large set of packages that may be required can be cre
 ```
 conda env create -n r-dev --file r-dev.yaml
 ```
+
+
+9. Setup precommit for a repo
+
+```
+cd <repo>
+cp ~/.pre-commit-config.yaml .
+```
+Modify the contents of the pre-commit file accordingly.
+For sub"sequent pushes with commitizen, it will run automatically.
+
+If necessary, override with
+```
+git add -A
+git commit -m "drastic push" --no-verify
+git push
+
+```
+
