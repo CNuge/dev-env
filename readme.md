@@ -71,20 +71,4 @@ conda env create -n r-dev --file r-dev.yaml
 ```
 
 
-9. Setup precommit for a repo
-
-```
-cd <repo>
-cp ~/.pre-commit-config.yaml .
-```
-Modify the contents of the pre-commit file accordingly.
-For sub"sequent pushes with commitizen, it will run automatically.
-
-If necessary, override with
-```
-git add -A
-git commit -m "drastic push" --no-verify
-git push
-
-```
 
