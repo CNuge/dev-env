@@ -31,7 +31,7 @@ cd ~
 bash mambaforge.sh
 # where mambaforge.sh is the most up to date mamabaforge downloaded by the setup command
 # re-source following install
-source ~/.bashrc
+source ~/.bash_profile
 ```
 
 4. 
@@ -46,8 +46,13 @@ conda install -c conda-forge pre-commit
 - use personal access token instead of actual password when prompted.
  https://github.com/settings/tokens
 
-5. Create a conda environment named 'dev' to do development work in, the command below sets the environment up with snakemake
+5. Create a conda environment named 'dev' to do development work in, the command below sets the environment up with snakemake. Navigate to this directory and load the pre-built dev environment with the following
 
+```
+ mamba env create -f dev_environment.yaml 
+```
+
+conversely you can make a skeleton snakemake env with the following:
 ```
 conda create -c bioconda -c conda-forge -n dev snakemake
 ```
