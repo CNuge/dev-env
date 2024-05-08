@@ -13,6 +13,7 @@ repos:
   rev: v2.1.0
   hooks:
   - id: codespell
+    entry: codespell --ignore-words .ignore_spelling.txt #can make this file to ignore words
 {% if cookiecutter.linting_support_for_python == "yes" %}
 ## Python support
 - repo: https://github.com/psf/black
