@@ -28,4 +28,5 @@ alias q='qstat'
 alias sq='squeue -o"%.18i %.9P %.16j %.8u %.8T %.10M %C %.6D %R"'
 alias watchq="watch -n 60 'squeue -o\"%.18i %.9P %.16j %.8u %.8T %.10M %C %.6D %R\"'"
 alias push='git push -u origin `git branch | awk "/\*/ {print \\\$2}"`'
-
+alias storage="df -Th"
+alias folder_size="du --summarize --human-readable *"
