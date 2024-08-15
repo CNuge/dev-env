@@ -60,6 +60,17 @@ conversely you can make a skeleton snakemake env with the following:
 conda create -c bioconda -c conda-forge -n dev snakemake
 ```
 
+optional: add the custom internal conda channel to your dev env channels
+    ```
+    conda deactivate
+    conda install boto3
+    conda config --add channels s3://package-mirror-sbi-shared/seqbio-pkgs/
+    conda activate dev
+    conda install seqbiopy
+    ```
+
+
+
 6. Activate the conda environment 
 
 ```
