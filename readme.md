@@ -8,7 +8,10 @@ This repo is primarily for getting a new ec2 instance up and running efficently.
 1. login to aws via command line, navigate to environment.
 
 2. clone repository using HTTPS link:
-`git clone https://github.com/CNuge/dev-env.git`
+
+    ```
+    git clone https://github.com/CNuge/dev-env.git
+    ```
 
 3. Set up environment.
 Have a look in `setup.sh`, make sure all the config files being copied and the utils being called to facilitate installs match your desired. You can add more install scripts to utils, or more generic config files to be copied to home dir and enabled.
