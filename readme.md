@@ -57,7 +57,8 @@ conda install -c conda-forge pre-commit
 
 conversely you can make a skeleton snakemake env with the following:
 ```
-conda create -c bioconda -c conda-forge -n dev snakemake
+#pinned to latest 7 for now, probably want to move to 8 or 9 soon!
+conda create -c bioconda -c conda-forge -n dev snakemake=7.32
 ```
 
 optional: add the custom internal conda channel to your dev env channels
