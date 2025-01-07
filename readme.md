@@ -49,6 +49,12 @@ conda install -c conda-forge pre-commit
 - use personal access token instead of actual password when prompted.
  https://github.com/settings/tokens
 
+- you can also optionally set various GitHub globals at the command line, e.g.:
+```
+git config --global user.name "your github username"
+git config --global user.email "your github account email"
+```
+
 5. Create a conda environment named 'dev' to do development work in, the command below sets the environment up with snakemake. Navigate to this directory and load the pre-built dev environment with the following
 
 ```
