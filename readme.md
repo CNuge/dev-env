@@ -27,12 +27,12 @@ source ~/.bash_profile
 
 ```
 
-4. install mambaforge
+4. install miniforge
 
 ```
 cd ~
-bash mambaforge.sh
-# where mambaforge.sh is the most up to date mamabaforge downloaded by the setup command
+bash miniforge.sh
+# where miniforge.sh is the most up to date miniforge downloaded by the setup command
 # re-source following install
 source ~/.bash_profile
 ```

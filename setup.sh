@@ -12,7 +12,9 @@ cp -R global_configs/.aws/ \
 #install miniconda
 bash $PWD/utils/get_miniconda.sh
 #install mamba
-bash $PWD/utils/get_mambaforge.sh
+#bash $PWD/utils/get_mambaforge.sh
+#install miniforge
+bash $PWD/utils/get_miniforge.sh
 #install nano
 bash $PWD/utils/install_nano.sh
 #install tree
