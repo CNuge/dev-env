@@ -1,7 +1,7 @@
 name: dev
 channels:
   - bioconda
-  - conda-forge
+  - conda-forgey
   - defaults
 dependencies:
   - black

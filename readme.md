@@ -40,8 +40,8 @@ source ~/.bash_profile
 4. 
 install commitizen and precommit
 ```
-conda install commitizen
-conda install -c conda-forge pre-commit
+mamba install commitizen
+mamba install -c conda-forge pre-commit
 
 ```
 

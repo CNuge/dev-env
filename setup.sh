@@ -20,4 +20,4 @@ bash $PWD/utils/install_nano.sh
 #install tree
 bash $PWD/utils/install_tree.sh
 
-~
+cd ~
