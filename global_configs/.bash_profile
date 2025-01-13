@@ -15,7 +15,7 @@ fi
 PATH=$PATH:$HOME/.local/bin:$HOME/bin
 
 export PATH
-export TZ="America/New_York"
+export TZ="America/Halifax"
 
 #############################
 #bash shortcuts
