@@ -68,13 +68,13 @@ conda create -c bioconda -c conda-forge -n dev snakemake=7.32
 ```
 
 optional: add the custom internal conda channel to your dev env channels
-    ```
-    conda deactivate
-    conda install boto3
-    conda config --add channels s3://package-mirror-sbi-shared/seqbio-pkgs/
-    conda activate dev
-    conda install seqbiopy
-    ```
+```
+conda deactivate
+conda install boto3
+conda config --add channels s3://package-mirror-sbi-shared/seqbio-pkgs/
+conda activate dev
+conda install seqbiopy
+```
 
 
 

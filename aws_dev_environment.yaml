@@ -1,9 +1,11 @@
-name: dev
+name: aws-dev
 channels:
   - bioconda
   - conda-forge
   - defaults
+  - s3://package-mirror-sbi-shared/seqbio-pkgs
 dependencies:
+  - seqbiopy
   - pandas
   - numpy
   - black
@@ -40,6 +42,3 @@ dependencies:
   - r-knitr
   - r-sf
   - r-plotly
-
-
-
