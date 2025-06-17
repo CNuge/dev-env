@@ -6,7 +6,7 @@ channels:
   - s3://package-mirror-sbi-shared/seqbio-pkgs
 dependencies:
   - seqbiopy
-  - pandas
+  - pandas=2.2.3
   - numpy=2.2
   - ipython
   - black
