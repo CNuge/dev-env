@@ -1,4 +1,4 @@
-name: aws-dev
+name: dev
 channels:
   - bioconda
   - conda-forge
@@ -8,6 +8,7 @@ dependencies:
   - seqbiopy
   - pandas
   - numpy
+  - ipython
   - black
   - cookiecutter
   - flake8

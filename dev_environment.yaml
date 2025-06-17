@@ -6,6 +6,7 @@ channels:
 dependencies:
   - pandas
   - numpy
+  - ipython
   - black
   - cookiecutter
   - flake8

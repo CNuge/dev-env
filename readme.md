@@ -76,7 +76,11 @@ conda activate dev
 conda install seqbiopy
 ```
 
+Alternatively, you can use the `aws_dev_environment.yaml` to set up the dev envionrment with the inclusion of the `seqbio-pkgs` channel
 
+```
+ mamba env create -f aws_dev_environment.yaml 
+```
 
 6. Activate the conda environment 
 
