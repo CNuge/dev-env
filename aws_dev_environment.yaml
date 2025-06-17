@@ -7,7 +7,7 @@ channels:
 dependencies:
   - seqbiopy
   - pandas
-  - numpy
+  - numpy=2.2
   - ipython
   - black
   - cookiecutter
@@ -22,7 +22,7 @@ dependencies:
   - snakemake
   - bcftools
   - samtools
-  - snakemake
+  - snakemake=9.5
   - snakemake-storage-plugin-s3
   - snakemake-storage-plugin-http
   - snakemake-executor-plugin-cluster-generic
