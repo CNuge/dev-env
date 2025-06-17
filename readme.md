@@ -85,7 +85,7 @@ Alternatively, you can use the `aws_dev_environment.yaml` to set up the dev envi
 6. Activate the conda environment 
 
 ```
-conda activate dev
+mamba activate dev
 ```
 
 7. Clone and/or naviagte to the repository you are working with.
