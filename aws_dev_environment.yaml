@@ -6,6 +6,7 @@ channels:
   - s3://package-mirror-sbi-shared/seqbio-pkgs
 dependencies:
   - seqbiopy
+  - snakemake=9.5
   - pandas=2.2.3
   - numpy=2.2
   - ipython
@@ -22,7 +23,6 @@ dependencies:
   - snakemake
   - bcftools
   - samtools
-  - snakemake=9.5
   - snakemake-storage-plugin-s3
   - snakemake-storage-plugin-http
   - snakemake-executor-plugin-cluster-generic
