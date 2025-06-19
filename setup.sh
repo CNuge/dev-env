@@ -10,7 +10,7 @@ cp -R global_configs/.aws/ \
       $HOME
 
 #install miniconda
-bash $PWD/utils/get_miniconda.sh
+#bash $PWD/utils/get_miniconda.sh
 #install mamba
 #bash $PWD/utils/get_mambaforge.sh
 #install miniforge
