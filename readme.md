@@ -18,7 +18,7 @@ Have a look in `setup.sh`, make sure all the config files being copied and the u
 
 Run setup
 ```
-setup.sh
+bash setup.sh
 ```
 Source your bash profile
 ```
@@ -36,6 +36,8 @@ bash miniforge.sh
 # re-source following install
 source ~/.bash_profile
 ```
+
+To install onto your /fsx/ set the location to /fsx/CNuge/miniforge/
 
 4. 
 install commitizen and precommit
