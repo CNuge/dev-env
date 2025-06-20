@@ -4,8 +4,12 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pandas
-  - numpy
+  - snakemake=9.5
+  - snakemake-storage-plugin-s3
+  - snakemake-storage-plugin-http
+  - snakemake-executor-plugin-cluster-generic
+  - pandas=2.2.3
+  - numpy=2.2
   - ipython
   - black
   - cookiecutter
@@ -20,10 +24,6 @@ dependencies:
   - snakemake
   - bcftools
   - samtools
-  - snakemake
-  - snakemake-storage-plugin-s3
-  - snakemake-storage-plugin-http
-  - snakemake-executor-plugin-cluster-generic
   - plink
   - pytest
   - pytest-cov
