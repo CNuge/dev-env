@@ -60,7 +60,7 @@ git config --global user.email "your github account email"
 5. Create a conda environment named 'dev' to do development work in, the command below sets the environment up with snakemake. Navigate to this directory and load the pre-built dev environment with the following
 
 ```
- mamba env create -f dev_environment.yaml 
+ conda env create -f dev_environment.yaml 
 ```
 
 conversely you can make a skeleton snakemake env with the following:
@@ -81,13 +81,13 @@ conda install seqbiopy
 Alternatively, you can use the `aws_dev_environment.yaml` to set up the dev envionrment with the inclusion of the `seqbio-pkgs` channel
 
 ```
- mamba env create -f aws_dev_environment.yaml 
+ conda env create -f aws_dev_environment.yaml 
 ```
 
 6. Activate the conda environment 
 
 ```
-mamba activate dev
+conda activate dev
 ```
 
 7. Clone and/or naviagte to the repository you are working with.
