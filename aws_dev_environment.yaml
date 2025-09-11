@@ -6,9 +6,9 @@ channels:
   - s3://package-mirror-sbi-shared/seqbio-pkgs
 dependencies:
   - seqbiopy
-  - snakemake=9.5
-  - pandas=2.2.3
-  - numpy=2.2
+  - snakemake
+  - pandas
+  - numpy
   - ipython
   - black
   - cookiecutter
