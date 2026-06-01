@@ -57,7 +57,13 @@ git config --global user.name "your github username"
 git config --global user.email "your github account email"
 ```
 
-5. Create a conda environment named 'dev' to do development work in, the command below sets the environment up with snakemake. Navigate to this directory and load the pre-built dev environment with the following
+5. Create a conda environment named 'dev' to do development work in, the command below sets the environment up with snakemake. 
+
+NOTE: If you're on a fresh headnode, run the following command that addresses the issue with long wait times for building conda/mamba environments stored on /fsx/
+```
+sudo lctl set_param ldlm.namespaces.*.lru_size=400
+```
+Navigate to this directory and load the pre-built dev environment with the following
 
 ```
  conda env create -f dev_environment.yaml 
