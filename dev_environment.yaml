@@ -24,6 +24,7 @@ dependencies:
   - snakemake
   - bcftools
   - samtools
+  - postgresql
   - plink
   - pytest
   - pytest-cov
