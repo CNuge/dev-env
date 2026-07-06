@@ -33,4 +33,5 @@ alias folder_size="du --summarize --human-readable *"
 
 alias ipy="ipython"
 
-alias snek="snakemake -np --rerun-triggers mtime --profile ../sb-slurm/ --software-deployment-method conda apptainer"
+alias snek="snakemake -np --profile ../sb-slurm/ --software-deployment-method conda apptainer"
+alias snek_mtime="snakemake -np --rerun-triggers mtime --profile ../sb-slurm/ --software-deployment-method conda apptainer"

@@ -103,5 +103,16 @@ A conda environment with a large set of packages that may be required can be cre
 conda env create -n r-dev --file r-dev.yaml
 ```
 
+9. Extend the git crediential timeout
+
+```
+cd ~
+sudo yum install libicu -y
+curl -LO https://github.com/git-ecosystem/git-credential-manager/releases/download/v2.6.1/gcm-linux_amd64.2.6.1.tar.gz
+tar -xvf gcm-linux_amd64.2.6.1.tar.gz -C /home/ec2-user
+./git-credential-manager configure
+git config --global credential.credentialStore cache
+git config --global credential.cacheOptions "--timeout 33600"
+```
 
 
