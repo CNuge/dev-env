@@ -72,7 +72,7 @@ Navigate to this directory and load the pre-built dev environment with the follo
 conversely you can make a skeleton snakemake env with the following:
 ```
 #pinned to latest 7 for now, probably want to move to 8 or 9 soon!
-conda create -c bioconda -c conda-forge -n dev snakemake=7.32
+conda create -c bioconda -c conda-forge -n dev snakemake
 ```
 
 optional: add the custom internal conda channel to your dev env channels
